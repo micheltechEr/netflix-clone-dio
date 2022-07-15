@@ -1,95 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Netflix</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-<script src='main.js'></script> -->
-    </head>
 
-    <body>
-        <header>
-            <nav class="menu-top">
-                <ul class="lista-menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Séries</a></li>
-                    <li><a href="#">Filmes</a></li>
-                    <li><a href="#">Bombando</a></li>
-                    <li><a href="#">Minha lista</a></li>
-                </ul>
-            </nav>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Netflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel='stylesheet' type='text/css' media='screen' href='./css//index.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
 
-            <nav class="operations-netflix">
-                <ul class="op-netflix">
-                    <li>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                                />
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<body>
+    <header class="flex align-center justify-between">
+        <nav class="menu-top">
+            <ul class="lista-menu flex">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Bombando</a></li>
+                <li><a href="#">Minha lista</a></li>
+            </ul>
+        </nav>
 
-        <main>
-            <div class="banner-home">
-                <div class="image-banner">
-                    <h3>Stranger Things</h3>
-                    <p class="description-title hide">Stranger Things não é diretamente inspirado em uma história real, mas a famosa série de ficção científica da Netflix é baseada em uma série de experimentos e conspirações que fazem parte da história do mundo.</p>
-                </div>
 
-                <div class="operations-banner-home">
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg> Assistir</a>
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg> Mais informações</a>
+        <ul class="op-netflix flex">
+            <li>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+
+            </li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                </svg>
+            </li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="banner-home flex align-center">
+            <div class="text-image">
+                <h3>The Umbrella Academy</h3>
+                <p class="description-title hide">Umbrella Academy acompanha os membros de uma família disfuncional de super-heróis enquanto eles trabalham juntos para resolver a misteriosa morte de seu pai e lidam com suas personalidades e habilidades divergentes.</p>
+
+                <div class="operations-banner-home flex">
+                    <button class="button">Assistir</button>
+                    <button class="button">Mais informações</button>
                 </div>
             </div>
 
-            <div class="carousel-action">
-                <h4>Mais ação</h4>
-                <div class="image-movie">
-                    <img src="./img//movie-one.jpg" alt="movie-1">
-                </div>
-                <div class="image-movie">
-                    <img src="./img//movie-two.jpg" alt="movie-2">
-                </div>
-                <div class="image-movie">
-                    <img src="./img//movie-three.jpg" alt="movie-4">
-                </div>
-                <div class="image-movie">
-                    <img src="./img//movie-five.png" alt="movie-5">
-                </div>
-                <div class="image-movie">
-                    <img src="./img//movie-six.jpg" alt="movie-6">
-                </div>
+        </div>
+
+        <div class="carousel-action">
+            <h4>Mais ação</h4>
+            <div class="image-movie">
+                <img src="./img//movie-one.jpg" alt="movie-1">
             </div>
-        </main>
-        
-        <footer></footer>
-    </body>
+            <div class="image-movie">
+                <img src="./img//movie-two.jpg" alt="movie-2">
+            </div>
+            <div class="image-movie">
+                <img src="./img//movie-three.jpg" alt="movie-4">
+            </div>
+            <div class="image-movie">
+                <img src="./img//movie-five.png" alt="movie-5">
+            </div>
+            <div class="image-movie">
+                <img src="./img//movie-six.jpg" alt="movie-6">
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+</body>
+
 </html>

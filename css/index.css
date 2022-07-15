@@ -1,0 +1,88 @@
+:root{
+--color_bg: #000;
+--color_icon: #FFF;
+--color_text:#FFF;
+}
+
+body{
+    background-color: var(--color_bg);
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content:space-between;
+}
+
+
+.lista-menu {
+    list-style: none; 
+}
+
+.lista-menu li {
+    padding: 10px;
+}
+
+.lista-menu li a {
+    text-decoration: none;
+    color: var(--color_icon);
+    font-weight: 500;
+}
+
+.op-netflix {
+    list-style: none;
+    width: 20%;
+}
+
+.op-netflix svg {
+    color: var(--color_icon);
+    width: 30%;
+}
+
+.banner-home {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/umbrella_academ.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.banner-home h3 {
+    color: var(--color_text);
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+.banner-home p {
+    color: var(--color_text);
+    width: 40%;
+
+}
+
+.text-image {
+    margin-left: 2%;
+}
+
+.operations-banner-home.flex .button {
+    background: rgba(0,0,0,.50);
+    border: none;
+    color: #FFF;
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.operations-banner-home.flex .button:hover{
+    background-color: #FFF;
+    color: #000;
+}
