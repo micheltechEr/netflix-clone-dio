@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Netflix</title>
+    <link rel="icon" href="img/netflix-icon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./css//owl/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="./css//owl/owl.theme.default.min.css">
@@ -16,6 +17,9 @@
     <header class="flex align-center justify-between">
         <nav class="menu-top flex">
             <img src="./img//netflix-logo.png">
+            <button class="button open-menu hide">
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
             <ul class="lista-menu flex">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Séries</a></li>
@@ -75,8 +79,8 @@
         </div>
     </main>
 
-        <div class="carousel-action">
-            <h4>Mais ação</h4>
+        <div class="carousel action">
+            <h4 class="title-carousel">Mais ação</h4>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="image-movie" src="./img//movie-one.jpg" alt="movie-1">
@@ -93,7 +97,27 @@
                 <div class="item">
                     <img class="image-movie" src="./img//movie-five.png" alt="movie-5">
                 </div>
+            </div>
+        </div>
 
+        <div class="carousel popular">
+            <h4 class="title-carousel">Populares na Netflix</h4>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="image-movie" src="./img//pop1.jpg" alt="movie-1">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//pop2.jpg" alt="movie-2">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//pop3.jpg" alt="movie-3">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//pop4.jpg" alt="movie-4">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//pop5.jpg" alt="movie-5">
+                </div>
             </div>
         </div>
 

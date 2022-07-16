@@ -15,16 +15,27 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-const navbar = document.querySelector('header');
-window.onscroll = () => {
-    if (window.scrollY > 300) {
-        navbar.classList.add('nav-active');
-    } else {
-        navbar.classList.remove('nav-active');
-    }
-};
-
+$(window).on("load", function(){
+    const navbar = document.querySelector('header');
+    window.onscroll = () => {
+        if (window.scrollY > 100) {
+            navbar.classList.add('nav-active');
+        } else {
+            navbar.classList.remove('nav-active');
+        }
+    };
+})
 
 $(".more_info").on("click", function(){
     $(".description-title").toggleClass('hide')
+})
+
+
+    if ($(window).width() <= 767) { 
+        $(".lista-menu").removeClass("flex");
+        $(".lista-menu").addClass("hide");
+        } 
+
+        $(".open-menu").on("click", function(){ 
+        $(".lista-menu").toggleClass('hide')
 })
