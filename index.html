@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Netflix</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css//owl/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="./css//owl/owl.theme.default.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='./css//index.css'>
-    <!-- <script src='main.js'></script> -->
+    
 </head>
 
 <body>
     <header class="flex align-center justify-between">
-        <nav class="menu-top">
+        <nav class="menu-top flex">
+            <img src="./img//netflix-logo.png">
             <ul class="lista-menu flex">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Séries</a></li>
@@ -52,40 +55,55 @@
 
     <main>
         <div class="banner-home flex align-center">
+            <div class="container_operation">
             <div class="text-image">
                 <h3>The Umbrella Academy</h3>
                 <p class="description-title hide">Umbrella Academy acompanha os membros de uma família disfuncional de super-heróis enquanto eles trabalham juntos para resolver a misteriosa morte de seu pai e lidam com suas personalidades e habilidades divergentes.</p>
-
                 <div class="operations-banner-home flex">
-                    <button class="button">Assistir</button>
-                    <button class="button">Mais informações</button>
+                    <button role="button" class="button">
+                        <i class="fa-solid fa-play"></i>
+                         Assistir
+                    </button>
+                    <button role="button" class="button more_info">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais informações
+                    </button>
                 </div>
             </div>
 
         </div>
+        </div>
+    </main>
 
         <div class="carousel-action">
             <h4>Mais ação</h4>
-            <div class="image-movie">
-                <img src="./img//movie-one.jpg" alt="movie-1">
-            </div>
-            <div class="image-movie">
-                <img src="./img//movie-two.jpg" alt="movie-2">
-            </div>
-            <div class="image-movie">
-                <img src="./img//movie-three.jpg" alt="movie-4">
-            </div>
-            <div class="image-movie">
-                <img src="./img//movie-five.png" alt="movie-5">
-            </div>
-            <div class="image-movie">
-                <img src="./img//movie-six.jpg" alt="movie-6">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="image-movie" src="./img//movie-one.jpg" alt="movie-1">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//movie-two.jpg" alt="movie-2">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//movie-three.jpg" alt="movie-3">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//movie-four.jpg" alt="movie-4">
+                </div>
+                <div class="item">
+                    <img class="image-movie" src="./img//movie-five.png" alt="movie-5">
+                </div>
+
             </div>
         </div>
 
-    </main>
+   
 
     <footer></footer>
+    <script src="https://kit.fontawesome.com/64ba07dfe8.js" crossorigin="anonymous"></script>
+    <script src="./js//owl//jquery.min.js"></script>
+    <script src="./js//owl/owl.carousel.min.js"></script>
+    <script src='./js//owl/index.js'></script> 
 </body>
 
 </html>
