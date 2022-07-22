@@ -65,9 +65,7 @@ header {
 .lista-menu li a:hover{
     opacity: .7;
 }
-button.button{
-display: none;
-}
+
 
 .op-netflix {
     list-style: none;
