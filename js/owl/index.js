@@ -31,7 +31,7 @@ $(".more_info").on("click", function(){
 })
 
 
-    if ($(window).width() <= 767) { 
+    if ($(window).width() <= 768) { 
         $(".lista-menu").removeClass("flex");
         $(".lista-menu").addClass("hide");
         } 
