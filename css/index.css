@@ -171,6 +171,7 @@ margin-left: 2%;
 footer.footer_neteste {
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 
 footer.footer_neteste .author_footer {
